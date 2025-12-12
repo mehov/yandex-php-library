@@ -33,5 +33,11 @@
     "support": {
         "issues": "https://github.com/nixsolutions/yandex-php-library/issues",
         "wiki": "https://github.com/nixsolutions/yandex-php-library/wiki"
+    },
+    "provide": {
+        "nixsolutions/yandex-php-library": "self.version"
+    },
+    "replace": {
+        "nixsolutions/yandex-php-library": "self.version"
     }
 }
